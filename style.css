@@ -12,3 +12,42 @@
 
   --fs: 15px;
 }
+
+body {
+  background: var(--clr-100);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 1em 0;
+  padding: 0 1em;
+}
+
+p {
+  margin-bottom: 1em;
+  padding: 0 1.25em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 325px;
+  border-radius: 10px;
+  background: var(--neutral-clr);
+
+  padding: 1em;
+}
