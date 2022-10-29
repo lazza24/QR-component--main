@@ -10,7 +10,7 @@
   --clr-accent: hsl(220, 15%, 55%);
   --clr-200: hsl(218, 44%, 22%);
 
-  --fs: 15px;
+  --fs: 0.938rem;
 }
 
 body {
@@ -25,7 +25,7 @@ main {
 
 img {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625em;
 }
 
 h2 {
@@ -45,9 +45,9 @@ p {
 }
 
 .card {
-  max-width: 325px;
-  border-radius: 10px;
+  max-width: 20.3125rem;
+  border-radius: 0.625em;
   background: var(--neutral-clr);
-
+  margin: 0.938rem;
   padding: 1em;
 }
